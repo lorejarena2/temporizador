@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/cW5lDBG/3d-numbers-background_spd6b89i_thumbnail-1080_01.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.6)
+}
+
+.numero{
+    height: 70px;
+    width: 120px;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.primero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 210px;
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.segundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temporizador{
+    height: 80px;
+    width: 170px;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    
+}
